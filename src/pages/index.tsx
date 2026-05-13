@@ -28,73 +28,73 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Years of experience", value: "3+" },
-  { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Years of experience", value: "2+" },
+  { label: "Technologies mastered", value: "8+" },
+  { label: "Projects delivered", value: "10+" },
 ];
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
+    title: "Medical Applications",
+    description: "Built scalable medical applications using Vue.js and Node.js for Finstein Advisory.",
     image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
+    href: "#",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
+    title: "Automation Testing",
+    description: "Streamlined testing processes using Selenium and Appium for web and mobile platforms.",
     image: "/assets/infinitevps.webm",
     href: "#",
   },
   {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
+    title: "REST API Development",
+    description: "Developed robust REST APIs to support application scalability and data accessibility.",
     image: "/assets/translate_bot.webm",
-    href: "https://translatebot.app/",
+    href: "#",
   },
   {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
+    title: "Testing Modules",
+    description: "Delivered major testing modules, significantly enhancing overall test coverage.",
     image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
+    href: "#",
   },
   {
-    title: "This website",
-    description: "My personal website",
+    title: "This Portfolio",
+    description: "My personal professional portfolio showcasing skills and experience.",
     image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
+    href: "https://github.com/nandhinijayaraman",
   },
 ];
 
 const services = [
   {
-    service: "Frontend Development",
+    service: "Full Stack Development",
     description:
-      "Creating stellar user interfaces and web experiences using the latest technologies.",
+      "Developing end-to-end web solutions using Vue.js and Node.js for optimal performance.",
     icon: Code2,
   },
   {
-    service: "UX Design",
+    service: "Automation Testing",
     description:
-      "Building intuitive, user-centric designs that drive engagement and conversion.",
+      "Implementing Selenium and Appium automation for web and mobile to ensure high quality.",
     icon: Frame,
   },
   {
-    service: "SEO Optimization",
+    service: "REST API Design",
     description:
-      "Enhancing your website's visibility in search engines for increased organic traffic.",
+      "Creating scalable and secure REST APIs to support complex application architectures.",
     icon: SearchCheck,
   },
   {
-    service: "Responsive Design",
+    service: "Database Management",
     description:
-      "Designing websites that look and perform equally well on all devices and screen sizes.",
+      "Optimizing database structures and queries for efficient data accessibility and storage.",
     icon: MonitorSmartphone,
   },
   {
-    service: "Backend Development",
+    service: "Unit & Integration Testing",
     description:
-      "Developing robust, scalable server-side logic for a wide range of web applications.",
+      "Conducting rigorous testing to guarantee software reliability and adherence to requirements.",
     icon: Eye,
   },
 ];
@@ -206,7 +206,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Nandhini.
                 </span>
               </h1>
               <p
@@ -215,8 +215,7 @@ export default function Home() {
                 data-scroll-speed=".06"
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
-                An experienced full-stack website developer with a passion for
-                crafting unique digital experiences.
+                Dynamic Full Stack Developer specializing in Vue.js and Node.js with a proven track record in automated testing.
               </p>
             </div>
             <span
@@ -225,7 +224,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:nansjayaraman@gmail.com" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -269,19 +268,13 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
-              <Link
-                href="https://create.t3.gg/"
-                target="_blank"
-                className="underline"
-              >
-                TypeScript, Tailwind, and Next.js
-              </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+              I&apos;m a Full Stack Developer at Finstein Advisory Service LLP,
+              proficient in{" "}
+              <span className="underline">
+                Vue.js, Node.js, and Python
+              </span>. I specialize in building innovative medical applications
+              and streamlining testing processes through automation, delivering
+              scalable solutions that meet complex functional requirements.
             </h2>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
@@ -446,7 +439,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:nansjayaraman@gmail.com" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>

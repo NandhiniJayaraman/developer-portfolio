@@ -5,9 +5,9 @@
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
-    "name": "WendoJ",
-    "short_name": "WendoJ",
-    "description": "Full-stack website developer and TypeScript enthusiast.",
+    "name": "Nandhini Jayaraman",
+    "short_name": "Nandhini",
+    "description": "Full-stack Developer specializing in Vue.js, Node.js and Automation Testing.",
     "icons": [
         {
             "src": "/icon-192x192.png",
